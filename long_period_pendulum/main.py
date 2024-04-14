@@ -29,7 +29,7 @@ def pog_mnk(x, y, k):
         summ_sq_x += x[i] ** 2
         summ_sq_y += y[i] ** 2
     coef1 = 1 / (len(x) -1 )
-    coef2 = np.mean(summ_sq_y) / np.mean((summ_sq_x)) - k ** 2
+    coef2 = np.mean(summ_sq_y) / np.mean((summ_sq_x))
     return(sqrt(coef1 * coef2))
 
 # функция для создания массива теоретических значений периода УГЛЫ - В РАДИАНАХ

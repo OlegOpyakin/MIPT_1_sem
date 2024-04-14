@@ -1,0 +1,1 @@
+std::cout << *p + *p2 << std::endl;
